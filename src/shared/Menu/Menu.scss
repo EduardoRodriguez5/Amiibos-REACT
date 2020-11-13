@@ -1,0 +1,21 @@
+.c-menu {
+    display: block;
+    list-style: none;
+    margin: 50px;
+    &__link {
+      color: #09D3AC;
+      padding: 10px;
+      display: inline-block;
+      text-decoration: none;
+      border: 4px solid;
+      margin: 10px;
+      font-size: 24px;
+      animation: 5s rotateAnimation infinite cubic-bezier(0.6, -0.28, 0.74, 0.05);
+    }
+
+    &__container{
+
+      display: flex;
+      justify-content: center;
+    }
+  }
